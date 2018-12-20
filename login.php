@@ -1,33 +1,3 @@
-<html>
-	<head>
-        <!--<link rel="stylesheet" type="text/css" href="index.css">!-->
-		<title>Login</title>
-        <style>
-            .div
-            {
-                position: relative;
-                top:110px;
-                height: 25px;
-                margin: 5px;
-            }
-        </style>
-	</head>
-	<body style="background-color: lightgray;">
-		<form method="post">
-			<center>
-                <div style="background-color: gray;position:relative;top:100px; border:3px solid black; width:400;height:400px;">
-            <label class="div"><b>Username</b></label>
-			<br>
-			<input type="text" class="div" name="Username">
-			<br>
-			<label class="div"><b>Password</b></label>
-			<br>
-			<input type="password" class="div" name="Password">
-			<br>
-			<input type="submit"  value="Submit" style="position: relative; top:120px; border-radius:10%"></div></center>
-		</form>
-	</body>
-</html>
 <?php
 	$host='localhost';
 	$user='root';
