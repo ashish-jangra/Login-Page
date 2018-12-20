@@ -25,11 +25,11 @@
 					echo "You entered wrong password ;)<br>";
 				else
 				{
-                    echo "Successfully logged in<br>";
+                    echo "<h1>Successfully logged in<br></h1>";
                     if($_POST['Username']=='admin')
                     {
-                        echo "<a href='insert.php'>Insert Records</a><br>";
-					    echo "<a href='ShowRecords.php'>Show Records</a>";
+                        echo "<h2><a href='insert.php'>Insert Records</a><br></h2>";
+					    echo "<h2><a href='ShowRecords.php'>Show Records</a></h2>";
                     }
 				}
 			}
